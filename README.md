@@ -49,7 +49,7 @@ CSV Logging config example:
     "type": "csv",
     "files": {
         "ping": "pingresults.csv",
-        "speed": "speedrestuls.csv"
+        "speed": "speedresults.csv"
     }
 }
 ```
