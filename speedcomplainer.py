@@ -142,7 +142,7 @@ class SpeedTest(threading.Thread):
                             access_token_key=self.config['twitter']['twitterToken'],
                             access_token_secret=self.config['twitter']['twitterTokenSecret'])
             if api:
-                tweet = message + i.strftime( '%d/%m/%y @ %H:%M:%S')
+                tweet = message + i.strftime('%d/%m/%y @ %H:%M:%S')
                 status = api.PostUpdate(tweet)
 
 class DaemonApp():
