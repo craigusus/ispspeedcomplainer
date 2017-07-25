@@ -12,6 +12,8 @@ from logger import Logger
 
 shutdownFlag = False
 
+i = datetime.now()
+
 def main(filename, argv):
     print "======================================"
     print " Starting Speed Complainer!           "
@@ -140,7 +142,8 @@ class SpeedTest(threading.Thread):
                             access_token_key=self.config['twitter']['twitterToken'],
                             access_token_secret=self.config['twitter']['twitterTokenSecret'])
             if api:
-                status = api.PostUpdate(message) + strftime('%d/%m/%y %H:%M:%S')
+                tweet = message + i.strftime('%d/%m/%y %H:%M:%S')
+                status = api.PostUpdate(tweet)
 
 class DaemonApp():
     def __init__(self, pidFilePath, stdout_path='/dev/null', stderr_path='/dev/null'):
