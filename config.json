@@ -9,15 +9,15 @@
     "internetSpeed": "64",
     "tweetThresholds": {
         "14": [
-            "Hey {tweetTo} I'm paying for {internetSpeed}Mbs but getting only {downloadResult}Mbs?!? Shame.",
-            "Oi! {tweetTo} £50+/m for {internetSpeed}Mbs and I only get {downloadResult}Mbs? How does that seem fair?"
+            "Hey {tweetTo} I'm paying for {internetSpeed}Mbs but getting only {downloadResult}Mbs?!? Shame. ",
+            "Oi! {tweetTo} £50+/m for {internetSpeed}Mbs and I only get {downloadResult}Mbs? How does that seem fair? "
         ],
         "32": [
-            "Uhh {tweetTo} for £50+/m I expect better than {downloadResult}Mbs when I'm paying for {internetSpeed}Mbs. Fix your network!",
-            "Hey {tweetTo} why am I only getting {downloadResult}Mbs when I pay for {internetSpeed}Mbs? £50+/m for this??"
+            "Uhh {tweetTo} for £50+/m I expect better than {downloadResult}Mbs when I'm paying for {internetSpeed}Mbs. Fix your network! ",
+            "Hey {tweetTo} why am I only getting {downloadResult}Mbs when I pay for {internetSpeed}Mbs? £50+/m for this?? "
         ],
         "42": [
-            "Well {tweetTo} I guess {downloadResult}Mbs is better than nothing, still not worth £50+/m when I expect {internetSpeed}Mbs"
+            "Well {tweetTo} I guess {downloadResult}Mbs is better than nothing, still not worth £50+/m when I expect {internetSpeed}Mbs! "
         ]
     },
     "log": {
