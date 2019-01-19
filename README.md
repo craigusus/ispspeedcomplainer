@@ -41,7 +41,7 @@ Threshold Example (remember to limit your messages to 140 characters or less!):
     }
 ```
 
-Logging can be done to CSV files, with a log file for ping results and speed test results. 
+Logging can be done to CSV files, with a log file for ping results and speed test results.
 
 CSV Logging config example:
 ```
